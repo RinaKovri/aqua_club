@@ -10,11 +10,11 @@ const Home: React.FC<HomeProps> = () => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h2>Нептунята</h2>
-                <h2>Нептунята</h2>
+                <h2>AquaBabyClub</h2>
+                <h2>AquaBabyClub</h2>
             </div>
             <div className={styles.homeBody}>
-                    <h1>Добро пожаловать в клуб "Нептунята"!</h1>
+                    <h1>Добро пожаловать в "Aqua Baby Club"!</h1>
                     <p>В нашем клубе мы знакомим деток с водой, делаем массаж душем Алексеева и развиваем навыки плавания.</p>
             </div>
         </div >

@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
+import AboutUs from './components/aboutUs/aboutUs';
+import Contact from './components/contactUs/contact';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,8 +21,8 @@ root.render(
     <Navbar />
       <Routes>
         <Route path='/' element={<App />}></Route>
-        {/* <Route path='example' element={< />} />
-        <Route path='/first' element={< />} /> */}
+        <Route path='aboutUs' element={<AboutUs />} />
+        <Route path='contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
