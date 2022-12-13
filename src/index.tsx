@@ -15,9 +15,12 @@ import Home from './components/home';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const isProduction = window.location.href.includes('rinakovri.github.io')
+
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={isProduction ? '/aqua_club' : ''}>
     <Navbar />
       <Routes>
         <Route path='/' element={<Home />}></Route>
