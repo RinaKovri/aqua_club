@@ -9,7 +9,7 @@ import {
 import './index.module.scss';
 import Navbar from './components/navbar/navbar';
 import AboutUs from './components/aboutUs/aboutUs';
-import Contact from './components/contactUs/contact';
+import ContactUs from './components/contactUs/contactUs';
 import Home from './components/home';
 
 const root = ReactDOM.createRoot(
@@ -22,7 +22,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='aboutUs' element={<AboutUs />} />
-        <Route path='contact' element={<Contact />} />
+        <Route path='contactUs' element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

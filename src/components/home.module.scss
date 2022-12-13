@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(83, 180, 212, 0.9150253851540616) 49%, rgba(244, 247, 247, 1) 81%, rgba(245, 253, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(83, 180, 212, 0.9150253851540616) 49%, rgba(244, 247, 247, 1) 81%, rgb(247, 251, 252) 100%);
     background-repeat: no-repeat;
 }
 
@@ -22,6 +22,7 @@ body {
 }
 
 .content h2 {
+    margin-top: -30px;
     color: #fff;
     font-size: calc(2vw + 1vh + 50px);
     position: absolute;
@@ -90,16 +91,18 @@ body {
 // }
 
 h1 {
+    margin-top: -90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #10366b;
 }
 
-p {
-    margin-top: 150px;
+h4 {
+    margin-top: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: calc(1vw + 1vh + 1vmin);
+    font-size: calc(1vw + 1vh + 0.5vmin);
     line-height: 40px;
     color: #10366b;
+    text-shadow: 2px 2px rgb(255, 255, 255);
 }

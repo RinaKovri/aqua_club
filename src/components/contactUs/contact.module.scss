@@ -2,9 +2,35 @@
     display: flex;
     flex-wrap: wrap;
     height: 150vh;
-    align-items: center;
+}
+
+.container ul li {
+    list-style: none;
 }
 
 .head2 {
-    color:  #10366b;;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 50px;
+    color: #10366b;
+}
+
+.phone {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.insta {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 42px;
+    height: 42px;
+    background-image: url(insta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
