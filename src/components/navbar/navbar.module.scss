@@ -18,22 +18,22 @@
 
 .navlinks {
     display: inline-block;
-    width: 130px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
     margin-left: 20px;
     margin-right: 50px;
     list-style: none;
-    background-image: url(splash.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     font-family: 'Just Add Water', sans-serif;
-    color: #10366b;
-    padding-top: 60px;
+    color:  rgb(10, 66, 130);
 }
+
 .links {
     padding: 10px;
 }
+
 a:link {
     text-decoration: none;
 }

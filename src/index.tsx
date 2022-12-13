@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter,
@@ -11,6 +10,7 @@ import './index.module.scss';
 import Navbar from './components/navbar/navbar';
 import AboutUs from './components/aboutUs/aboutUs';
 import Contact from './components/contactUs/contact';
+import Home from './components/home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,7 +20,7 @@ root.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path='/' element={<App />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path='aboutUs' element={<AboutUs />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
