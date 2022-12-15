@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './aboutUs.module.scss'
+import Baby from './baby.jpg';
 
 type AboutUsProps = {
 
@@ -9,7 +10,7 @@ const AboutUs: React.FC<AboutUsProps> = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.header}>Меня зовут Анна</h2>
-      <div className={styles.img}></div>
+      <img className={styles.img} src={Baby} alt='baby'></img>
       <p className={styles.text}>Я — жена, мама двух озорных мальчишек, а ещё – дипломированный фитнес-тренер по направлению «Аквафитнес с детьми грудного, раннего и дошкольного возраста».
 <br></br>Всерьёз задумалась про этот род деятельности, когда появился на свет младший сын.  Мы с мужем соорудили дома ванну, где он плавал до полугода, пока не стал вставать.
 Я видела, какой мощный эффект оказывает плавание на ребёнка и начала искать информацию в Интернете.<br></br> Потом были очные курсы: я ездила и в Таллин, и в Санкт-Петербург.

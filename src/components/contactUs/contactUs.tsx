@@ -11,7 +11,7 @@ const ContactUs: React.FC<ContactProps> = () => {
       <ul>
         <li>
         <div className={styles.phone}></div>
-        <h2 className={styles.head2}>+358406586963</h2>
+        <h2 className={styles.head2}>+358123456789</h2>
         </li>
         <li>
           <div className={styles.insta}></div>

@@ -1,0 +1,16 @@
+.container {
+    padding: 40px;
+    background: #419be0;
+    margin: 20px 0;
+  }
+  
+  .slick-slider {
+    margin: 20px 0;
+    border: 2px solid white;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+    max-width: 90%;
+  }
+  
